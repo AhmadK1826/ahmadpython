@@ -25,3 +25,7 @@ Then run:
 
 You can install dependencies using:
 pip install pandas numpy
+## Example Usage
+
+Example:
+python bikeshare.py
