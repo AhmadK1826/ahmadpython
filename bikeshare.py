@@ -3,7 +3,7 @@
 import pandas as pd
 import numpy as np
 
-
+# Refactor: improved clarity in comments and variable names
 def load_data(city):
     """
     Load the CSV for the specified city and add time-derived columns.
