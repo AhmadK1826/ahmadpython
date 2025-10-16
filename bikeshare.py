@@ -3,7 +3,15 @@
 import pandas as pd
 import numpy as np
 
+"""
+Loads data for the specified city and adds time-related columns.
 
+Args:
+    city (str): name of the city to analyze
+
+Returns:
+    df (DataFrame): Pandas DataFrame containing city data with added columns for month, day, and hour.
+"""
 def load_data(city):
     """
     Load the CSV for the specified city and add time-derived columns.
