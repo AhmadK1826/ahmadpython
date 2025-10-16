@@ -10,3 +10,9 @@ Then run:
 - bikeshare.py: main Python script  
 - .gitignore: excludes large data CSVs  
 - README.md: project documentation
+
+## Project Structure
+
+- data/: contains CSV datasets (excluded in .gitignore)  
+- scripts/: Python code files (mainly bikeshare.py)  
+- docs/: documentation and instructions
