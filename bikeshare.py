@@ -273,7 +273,7 @@ def main():
             df = load_data(city)
 
         print(f"\nCalculating statistics for {city.title()}.\n")
-
+        print("Data successfully loaded and analysis in progress...")
         print(f"Most common month: {most_common_month(df)}")
         print(f"Most common day of week: {most_common_day(df)}")
         print(f"Most common start hour: {most_common_hour(df)}")
