@@ -16,3 +16,12 @@ Then run:
 - data/: contains CSV datasets (excluded in .gitignore)  
 - scripts/: Python code files (mainly bikeshare.py)  
 - docs/: documentation and instructions
+
+## Requirements
+
+- Python 3.8 or later  
+- pandas  
+- numpy  
+
+You can install dependencies using:
+pip install pandas numpy
