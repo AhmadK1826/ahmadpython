@@ -12,6 +12,7 @@ Args:
 Returns:
     df (DataFrame): Pandas DataFrame containing city data with added columns for month, day, and hour.
 """
+# Refactor: improved clarity in comments and variable names
 def load_data(city):
     """
     Load the CSV for the specified city and add time-derived columns.
@@ -281,7 +282,7 @@ def main():
             df = load_data(city)
 
         print(f"\nCalculating statistics for {city.title()}.\n")
-
+        print("Data successfully loaded and analysis in progress...")
         print(f"Most common month: {most_common_month(df)}")
         print(f"Most common day of week: {most_common_day(df)}")
         print(f"Most common start hour: {most_common_hour(df)}")
@@ -313,6 +314,7 @@ def main():
         if restart != 'yes':
             break
 
-
+# Entry point for running the bikeshare program directly
 if __name__ == "__main__":
     main()
+    
