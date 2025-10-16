@@ -305,6 +305,6 @@ def main():
         if restart != 'yes':
             break
 
-
+# Entry point for running the bikeshare program directly
 if __name__ == "__main__":
     main()
